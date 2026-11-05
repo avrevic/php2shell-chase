@@ -2,7 +2,7 @@
 
 The smallest Rust model of one PHP2Shell bug, verified with [Verus](https://github.com/verus-lang/verus). This version **chases the bug**: it writes down the property the bug breaks and asks Verus to prove it after every way a request can end.
 
-Companion repo, same code without that property: [php2shell-plain](https://github.com/avrevic/php2shell-plain).
+Companion repos: [php2shell-plain](https://github.com/avrevic/php2shell-plain) (Verus, not chasing), [php2shell-lean-chase](https://github.com/avrevic/php2shell-lean-chase) and [php2shell-lean-plain](https://github.com/avrevic/php2shell-lean-plain) (Lean 4).
 
 ## The property
 
